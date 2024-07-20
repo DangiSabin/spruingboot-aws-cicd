@@ -62,8 +62,8 @@ public class CourseController {
         return "UP";
     }
 
-    @GetMapping("/welcome")
-    public String greetings() {
-        return "Hello World , SpringBoot AWS CICD Example working fine !";
-    }
+	/*
+	 * @GetMapping("/welcome") public String greetings() { return
+	 * "Hello World , SpringBoot AWS CICD Example working fine !"; }
+	 */
 }
