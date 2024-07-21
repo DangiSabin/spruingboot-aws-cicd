@@ -64,7 +64,7 @@ public class CourseController {
 
     @GetMapping("/welcome")
     public String greetings() {
-        return "Hello World , SpringBoot AWS CICD Example working fine !";
+        return "Welcome Sandeep";
     }
     
     @GetMapping("/test")
