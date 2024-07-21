@@ -69,6 +69,6 @@ public class CourseController {
     
     @GetMapping("/test")
     public String test() {
-        return "Testing...";
+        return "Testing SpringBoot app using AWS CICD";
     }
 }
